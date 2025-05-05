@@ -2,17 +2,16 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
-import { motion, useScroll, useTransform, useInView } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiTwitter, FiChevronDown, FiCode, FiLayers, FiDatabase, FiMonitor, FiSmartphone } from 'react-icons/fi';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { FiGithub, FiLinkedin, FiTwitter, FiChevronDown, FiDatabase, FiMonitor, FiSmartphone } from 'react-icons/fi';
 import Button from './ui/Button';
 import { useTheme } from 'next-themes';
 
 // Yenilenmiş hero bölümü - interaktif, modern ve çarpıcı tasarım
 export default function HeroSection() {
   const [isMounted, setIsMounted] = useState(false);
-  const { theme } = useTheme();
+  useTheme();
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: false });
   
   // Kaydırma efektleri
   const { scrollY } = useScroll();
