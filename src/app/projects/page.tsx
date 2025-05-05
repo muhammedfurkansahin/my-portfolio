@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FiExternalLink, FiGithub, FiFilter, FiX } from 'react-icons/fi';
-import Button from '@/components/ui/Button';
 import { projects } from '@/lib/data';
 
 // Tüm projelerin listelendiği sayfa

@@ -41,6 +41,7 @@ export default function ContactPage() {
       setSubmitSuccess(true);
       setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
+      console.error('Form gönderimi hatası:', error);
       setSubmitError('Form gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.');
     } finally {
       setIsSubmitting(false);

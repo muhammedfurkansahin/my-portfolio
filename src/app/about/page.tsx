@@ -105,7 +105,7 @@ export default function AboutPage() {
             <motion.div variants={itemVariants}>
               <Button href="/cv.pdf" variant="primary" className="inline-flex items-center">
                 <FiDownload className="mr-2" />
-                CV'mi İndir
+                CV&apos;mi İndir
               </Button>
             </motion.div>
           </motion.div>
