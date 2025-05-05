@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u2250244/repositories/my-portfolio
+    - export DEPLOYPATH=/home/u2250244/public_html/
     - /bin/cp -R .next/standalone $DEPLOYPATH
     - /bin/cp -R .next/static $DEPLOYPATH/.next/static
     - /bin/cp -R public $DEPLOYPATH
