@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u2255410/public_html/
+    - export DEPLOYPATH=/home/u2255410/repositories/my-portfolio
     - /bin/cp -R my_portfolio/out $DEPLOYPATH
