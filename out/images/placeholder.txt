@@ -1,9 +1,0 @@
-Bu dizin içine aşağıdaki görselleri ekleyin:
-
-1. avatar.jpg - Ana sayfadaki hero bölümü için profil resmi
-2. about.jpg - Hakkımda sayfası için profil resmi
-3. portfolio.png - Projeler için örnek görsel
-4. ecommerce.png - Projeler için örnek görsel
-5. task-manager.png - Projeler için örnek görsel
-
-Not: Kendi projelerinizin ve kendinizin görselleriyle değiştirmeniz önerilir. 
